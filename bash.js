@@ -5,7 +5,7 @@ process.stdin.on('data', data => {
   const currentDir = process.cwd();
 
   process.stdout.write('You typed: ' + cmd + '/////////');
-  process.stdout.write('You typed: ' + pwd);
+  process.stdout.write('You typed: ' + currentDir);
 
   process.stdout.write('\nprompt > ');
 });
